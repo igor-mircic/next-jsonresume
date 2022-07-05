@@ -17,13 +17,14 @@ import { Languages } from "./../components/Languages";
 import { Interests } from "./../components/Interests";
 import { References } from "./../components/References";
 
-export default function Home({ data }) {
+import data from "../data/8720f698af269b85174ec5986e696c59/resume.json"
+
+export default function Home() {
   if (!Object.keys(data).length) {
     return null;
   }
 
   const {
-    meta, // theme
     basics: {
       name,
       label,
@@ -87,23 +88,4 @@ export default function Home({ data }) {
       </section>
     </>
   );
-}
-
-export async function getServerSideProps(context) {
-  let data = {};
-  try {
-    const query = context.query.url
-      ? `?url=${encodeURI(context.query.url)}`
-      : "";
-    const url = `http://${context.req.headers.host}/api/resume${query}`;
-    const response = await fetch(url);
-    data = await response.json();
-  } catch (e) {
-    console.error(e);
-  }
-
-  return {
-    // will be passed to the page component as props
-    props: { data },
-  };
 }
