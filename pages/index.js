@@ -71,21 +71,14 @@ export default function Home() {
 
         <Experience work={work} />
 
-        <Education education={education} />
-
-        <Volunteer volunteer={volunteer} />
-
-        <Awards awards={awards} />
-
-        <Publications publications={publications} />
-
         <Skills skills={skills} />
+
+        <Education education={education} />
 
         <Languages languages={languages} />
 
         <Interests interests={interests} />
 
-        <References references={references} />
       </section>
     </>
   );

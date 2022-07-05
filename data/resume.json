@@ -63,15 +63,17 @@
   "skills": [
     {
       "keywords": [
-        "HTML / JSX",
-        "SCSS / CSS / BEM / Styled Components / MUI",
+        "HTML / JSX / Handlebars",
+        "CSS / SCSS / BEM / Styled Components / MUI",
         "Javascript / Typescript",
         "React / Next ",
         "Redux",
+        "Angular",
         "Node.js",
         "NPM / Yearn",
         "MongoDB",
-        "Express"
+        "Express",
+        "VS Code / VIM"
       ]
     }
   ],
