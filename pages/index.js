@@ -17,7 +17,7 @@ import { Languages } from "./../components/Languages";
 import { Interests } from "./../components/Interests";
 import { References } from "./../components/References";
 
-import data from "../data/8720f698af269b85174ec5986e696c59/resume.json"
+import data from "../data/resume.json"
 
 export default function Home() {
   if (!Object.keys(data).length) {

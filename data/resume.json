@@ -1,0 +1,109 @@
+{
+  "basics": {
+    "name": "Igor Mirćić",
+    "label": "Front-End Web Developer",
+    "image": "https://avatars.githubusercontent.com/u/76088411",
+    "email": "igor.mircic@outlook.com",
+    "phone": "+381 60 1300559",
+    "url": "https://johndoe.com",
+    "summary": "Motivated and hardworking, glad to learn and acquire experience. Ready to take responsibility as a member of a team. Have been interested in electronic devices since childhood.",
+    "location": {
+      "postalCode": "18000 Niš",
+      "city": "Niš",
+      "countryCode": "RS",
+      "region": "Serbia"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "igor-mircic",
+        "url": "https://github.com/igor-mircic"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ingsoftware",
+      "position": "(Internship) Front-End Web Developer",
+      "website": "https://www.ingsoftware.com/",
+      "startDate": "2021-05-10",
+      "endDate": "2021-08-09",
+      "summary": "Worked on three projects with increasing difficulty. First project was landing page with focus on setting up dev environment with webpack and learning advanced SCSS concepts. Second project was a shop page utilizing REST API and handlebars tempesting. Finally third project was app for displaying country info and was made with Angular framework and REST Countries API",
+      "highlights": [
+        "SCSS",
+        "Webpack",
+        "Handlebars",
+        "Angular"
+      ]
+    },
+    {
+      "company": "Sigma Controls Engineering",
+      "position": "PLC/SCADA Engineer",
+      "website": "https://sce.rs",
+      "startDate": "2018-08-15",
+      "endDate": "2021-02-18"
+    },
+    {
+      "company": "Wizards",
+      "position": "Android, Unity3D developer",
+      "website": "https://wizards.rs/",
+      "startDate": "2016-01-21",
+      "endDate": "2016-09-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Faculty of Electronic Engineering - University of Nis",
+      "url": "https://www.elfak.ni.ac.rs/en/",
+      "area": "Electronic engineering",
+      "studyType": "Master",
+      "endDate": "2017-10-10"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS / BEM / Styled Components / MUI",
+        "Javascript / Typescript",
+        "React / Next ",
+        "Redux",
+        "Node.js",
+        "NPM / Yearn",
+        "MongoDB",
+        "Express"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Fixing Things"
+    },
+    {
+      "name": "Open Source"
+    },
+    {
+      "name": "Gaming"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Where in world?",
+      "description": "In this project, I worked with REST Counties API, React and MUI to create app that displays information about countries. The design is from frontendmentor.io",
+      "keywords": [
+        "React",
+        "Typescript",
+        "MUI",
+        "REST API"
+      ],
+      "url": "https://rest-countries-react-im.netlify.app/",
+      "type": "website"
+    }
+  ]
+}
