@@ -25,6 +25,7 @@ export default function Home() {
   }
 
   const {
+    meta, // theme
     basics: {
       name,
       label,
