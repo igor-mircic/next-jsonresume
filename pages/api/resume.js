@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 const RESUME_URL =
-  "https://gist.githubusercontent.com/thomasdavis/c9dcfa1b37dec07fb2ee7f36d7278105/raw/42222fecd748c7b9d8c15fd84d677cebd5fdda3a/resume.json";
+  "https://gist.githubusercontent.com/igor-mircic/8720f698af269b85174ec5986e696c59/raw/resume.json";
 
 export default async (req, res) => {
   try {
