@@ -18,6 +18,7 @@ import { Interests } from "./../components/Interests";
 import { References } from "./../components/References";
 
 import data from "../data/resume.json"
+import { Projects } from '../components/Projects';
 
 export default function Home() {
   if (!Object.keys(data).length) {
@@ -44,6 +45,7 @@ export default function Home() {
     awards,
     publications,
     work,
+    projects,
     volunteer,
     interests,
   } = data;
@@ -72,6 +74,8 @@ export default function Home() {
         <Experience work={work} />
 
         <Skills skills={skills} />
+
+        <Projects projects={projects} />
 
         <Education education={education} />
 

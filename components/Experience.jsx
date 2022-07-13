@@ -19,13 +19,10 @@ export function Experience({ work }) {
                       className={`name text-xl mt-6 font-semibold border-l-4 pl-4 ${
                         [
                           `border-purple-600`,
-                          `border-purple-500`,
-                          `border-purple-400`,
                           `border-purple-300`,
-                          `border-purple-200`,
                           `border-purple-100`,
                           `border-purple-50`,
-                        ][i < 6 ? i : 6]
+                        ][i < 4 ? i : 4]
                       }`}
                     >
                       {item.company}
