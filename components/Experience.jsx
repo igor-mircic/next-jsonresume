@@ -27,13 +27,20 @@ export function Experience({ work }) {
                     >
                       {item.company}
                     </h3>
-                    {item.website && (
-                      <div className='icon website text-sm absolute top-0 right-0'>
-                        <a href={item.website} className='text-purple-600	'>
-                          {item.website}
-                        </a>
-                      </div>
-                    )}
+                    <div className='icon date text-gray-600 text-sm absolute top-0 right-0'>
+                      {item.startDate && (
+                        <span className='startDate'>
+                          {format(item.startDate)}{' '}
+                        </span>
+                      )}
+                      {item.endDate ? (
+                        <span className='endDate'>
+                          - {format(item.endDate)}
+                        </span>
+                      ) : (
+                        <span className='endDate'>- Present</span>
+                      )}
+                    </div>
                   </header>
                 )}
                 <div className='item pl-5'>
@@ -42,18 +49,6 @@ export function Experience({ work }) {
                       {item.position}
                     </div>
                   )}
-                  <div className='date text-gray-600 text-sm'>
-                    {item.startDate && (
-                      <span className='startDate'>
-                        {format(item.startDate)}{' '}
-                      </span>
-                    )}
-                    {item.endDate ? (
-                      <span className='endDate'>- {format(item.endDate)}</span>
-                    ) : (
-                      <span className='endDate'>- Present</span>
-                    )}
-                  </div>
 
                   {item.summary && (
                     <div className='summary my-4'>
@@ -65,9 +60,12 @@ export function Experience({ work }) {
                   {!!item.highlights?.length && (
                     <ul className='highlights font-mono text-sm text-gray-600'>
                       {item.highlights.map((item, i) => (
-                        <li 
-                        className='mr-1 mb-1 text-sm bg-gray-100 p-1.5 rounded border-gray-300 border border-l-0 border-t-0 inline-block'
-                        key={i}>{item}</li>
+                        <li
+                          className='mr-1 mb-1 text-sm bg-gray-100 p-1.5 rounded border-gray-300 border border-l-0 border-t-0 inline-block'
+                          key={i}
+                        >
+                          {item}
+                        </li>
                       ))}
                     </ul>
                   )}

@@ -43,7 +43,7 @@ export function Projects({ projects }) {
                     </div>
                   )}
                   {!!item.keywords?.length && (
-                    <ul className='highlights font-mono text-sm text-gray-600'>
+                    <ul className='keywords'>
                       {item.keywords.map((item, i) => (
                         <li
                           className='mr-1 mb-1 text-sm bg-gray-100 p-1.5 rounded border-gray-300 border border-l-0 border-t-0 inline-block'

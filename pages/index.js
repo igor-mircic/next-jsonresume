@@ -9,13 +9,9 @@ import { Profiles } from "./../components/Profiles";
 import { Summary } from "./../components/Summary";
 import { Experience } from "./../components/Experience";
 import { Education } from "./../components/Education";
-import { Volunteer } from "./../components/Volunteer";
-import { Awards } from "./../components/Awards";
-import { Publications } from "./../components/Publications";
 import { Skills } from "./../components/Skills";
 import { Languages } from "./../components/Languages";
 import { Interests } from "./../components/Interests";
-import { References } from "./../components/References";
 
 import data from "../data/resume.json"
 import { Projects } from '../components/Projects';
@@ -26,7 +22,6 @@ export default function Home() {
   }
 
   const {
-    meta, // theme
     basics: {
       name,
       label,
@@ -39,14 +34,10 @@ export default function Home() {
       profiles,
     },
     education,
-    references,
     skills,
     languages,
-    awards,
-    publications,
     work,
     projects,
-    volunteer,
     interests,
   } = data;
 
@@ -71,17 +62,17 @@ export default function Home() {
 
         <Summary summary={summary} />
 
-        <Experience work={work} />
+        <Projects projects={projects} />
 
         <Skills skills={skills} />
 
-        <Projects projects={projects} />
+        <Experience work={work} />
 
         <Education education={education} />
 
         <Languages languages={languages} />
 
-        <Interests interests={interests} />
+        {/* <Interests interests={interests} /> */}
 
       </section>
     </>

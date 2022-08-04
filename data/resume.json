@@ -5,8 +5,7 @@
     "image": "https://avatars.githubusercontent.com/u/76088411",
     "email": "igor.mircic@outlook.com",
     "phone": "+381 60 1300559",
-    "url": "https://johndoe.com",
-    "summary": "Motivated and hardworking, glad to learn and acquire experience. Ready to take responsibility as a member of a team. Have been interested in electronic devices since childhood.",
+    "summary": "Throughout my 5-year-plus career as a software / hardware engineer, I have learned a lot of different technologies. At my last job, I worked on industrial SCADA systems (front-end apps for controlling industrial machines). One of the clients required remote control of systems. For this project, I built an app that runs in a web browser. Seeing how there is a lot of demand for web apps, this has sparked my interest in web development. I spent last year learning on my own and also did three months internship with mentor at Ingsoftware. Below you'll find projects I've completed that showcase my skills as a front-end developer.",
     "location": {
       "postalCode": "18000 Niš",
       "city": "Niš",
@@ -16,7 +15,7 @@
     "profiles": [
       {
         "network": "Github",
-        "username": "igor-mircic",
+        "username": "github.com/igor-mircic",
         "url": "https://github.com/igor-mircic"
       }
     ]
@@ -28,13 +27,7 @@
       "website": "https://www.ingsoftware.com/",
       "startDate": "2021-05-10",
       "endDate": "2021-08-09",
-      "summary": "Worked on three projects with increasing difficulty. First project was landing page with focus on setting up dev environment with webpack and learning advanced SCSS concepts. Second project was a shop page utilizing REST API and handlebars tempesting. Finally third project was app for displaying country info and was made with Angular framework and REST Countries API",
-      "highlights": [
-        "SCSS",
-        "Webpack",
-        "Handlebars",
-        "Angular"
-      ]
+      "summary": ""
     },
     {
       "company": "Sigma Controls Engineering",
@@ -45,7 +38,7 @@
     },
     {
       "company": "Wizards",
-      "position": "Android, Unity3D developer",
+      "position": "Unity3D developer",
       "website": "https://wizards.rs/",
       "startDate": "2016-01-21",
       "endDate": "2016-09-01"
@@ -57,6 +50,7 @@
       "url": "https://www.elfak.ni.ac.rs/en/",
       "area": "Electronic engineering",
       "studyType": "Master",
+      "startDate": "2009-10-01",
       "endDate": "2017-10-10"
     }
   ],
@@ -70,9 +64,9 @@
         "Angular",
         "NPM / Yearn",
         "Git / Github / Gitlab",
+        "Webpack / Gulp",
         "Node.js",
-        "MongoDB",
-        "Express",
+        "Linux / WSL",
         "VS Code / VIM"
       ]
     }
@@ -97,15 +91,18 @@
   "projects": [
     {
       "name": "Where in world?",
-      "description": "In this project, I worked with REST Counties API, React and MUI to create app that displays information about countries. The design is from frontendmentor.io",
-      "keywords": [
-        "React",
-        "Typescript",
-        "MUI",
-        "REST API"
-      ],
-      "url": "https://rest-countries-react-im.netlify.app/",
-      "type": "website"
+      "description": "Created responsive, accessible, and mobile-first web application that displays information about countries. Utilized REST Counties API for countries data, React and Material UI for building user interface.",
+      "url": "https://rest-countries-react-im.netlify.app/"
+    },
+    {
+      "name": "Birra-33",
+      "description": "Created shop for selling beer. Utilized PUNK API for data, Handlebars, JQuery and SCSS for building user interface.",
+      "url": "https://birra-33.netlify.app/"
+    },
+    {
+      "name": "Graxpo",
+      "description": "Created responsive one-page web site for imaginary company Graxpo. Utilized SCSS and BEM methodology for styling, vanilla Javascript for simple UI interactions.",
+      "url": "https://graxpo.netlify.app/"
     }
   ]
 }
